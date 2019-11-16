@@ -21,6 +21,7 @@ int main(void)
   Usart_Config();   							 //串口打开，支持直接使用官方的DAP线
   KEY_Init();       							 //按键输入
 	GPIO_Configuration();           //GPIO输出初始化
+	SendCmd_Configuration();
 	TIM8_PWM_Init(7199, 0);         //初始化PWM，极限值为7200
 	Encoder_Init_TIM2();             //=====编码器接口
 	Encoder_Init_TIM3();             //=====编码器接口
@@ -41,7 +42,35 @@ int main(void)
 //		LED1_OFF;
 //		LED2_ON;	
 //		Delay_ms(250);	
-		printf("%d, %d, %d, %d, %d\r\n", dis_1, dis_2, dis_3, dis_4, (int)(angle_z+angle_rate));//rate抵消那个线性误差的问题
+//		SendCmd(0);
+//		Delay_ms(1000);
+//		SendCmd(1);
+//		Delay_ms(1000);
+//		SendCmd(2);
+//		Delay_ms(1000);
+//		SendCmd(3);
+//		Delay_ms(1000);
+//		SendCmd(4);
+//		Delay_ms(1000);
+//		SendCmd(5);
+//		Delay_ms(1000);
+//		SendCmd(6);
+//		Delay_ms(1000);
+//		SendCmd(7);
+//		Delay_ms(1000);
+
+		if(KEY_Scan())
+		{
+			SendCmd(1);
+			LED1_ON;
+		}
+		else
+		{
+			LED1_OFF;
+			SendCmd(0);
+		}
+		
+		//printf("%d, %d, %d, %d, %d\r\n", dis_1, dis_2, dis_3, dis_4, (int)(angle_z+angle_rate));//rate抵消那个线性误差的问题
 	}
 }
 

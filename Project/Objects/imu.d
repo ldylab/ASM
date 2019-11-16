@@ -47,3 +47,4 @@
 .\objects\imu.o: ..\Drive\Include\Laser.h
 .\objects\imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\imu.o: ..\Drive\Include\SendCmd.h

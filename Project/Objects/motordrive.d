@@ -47,3 +47,4 @@
 .\objects\motordrive.o: ..\Drive\Include\Laser.h
 .\objects\motordrive.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\motordrive.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\motordrive.o: ..\Drive\Include\SendCmd.h

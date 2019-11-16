@@ -47,3 +47,4 @@
 .\objects\key.o: ..\Drive\Include\Laser.h
 .\objects\key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\key.o: ..\Drive\Include\SendCmd.h

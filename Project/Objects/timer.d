@@ -47,3 +47,4 @@
 .\objects\timer.o: ..\Drive\Include\Laser.h
 .\objects\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timer.o: ..\Drive\Include\SendCmd.h

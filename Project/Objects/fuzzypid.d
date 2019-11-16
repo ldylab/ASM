@@ -47,3 +47,4 @@
 .\objects\fuzzypid.o: ..\Drive\Include\Laser.h
 .\objects\fuzzypid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\fuzzypid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\fuzzypid.o: ..\Drive\Include\SendCmd.h

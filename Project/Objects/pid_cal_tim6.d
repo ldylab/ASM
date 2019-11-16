@@ -47,3 +47,4 @@
 .\objects\pid_cal_tim6.o: ..\Drive\Include\Laser.h
 .\objects\pid_cal_tim6.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\pid_cal_tim6.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pid_cal_tim6.o: ..\Drive\Include\SendCmd.h

@@ -47,3 +47,4 @@
 .\objects\delay.o: ..\Drive\Include\Laser.h
 .\objects\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\delay.o: ..\Drive\Include\SendCmd.h

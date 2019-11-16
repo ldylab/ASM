@@ -47,3 +47,4 @@
 .\objects\encoder.o: ..\Drive\Include\Laser.h
 .\objects\encoder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\encoder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\encoder.o: ..\Drive\Include\SendCmd.h
